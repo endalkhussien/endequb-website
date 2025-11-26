@@ -1,9 +1,10 @@
 'use client';
-
+import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 // import About from "./components/About";
 import Footer from "./components/Footer";
+import Testimonials from "./components/Testimonials";
 import { Button } from "./components/ui/Button";
 
 const serviceHighlights = [
@@ -157,7 +158,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+      <div>
+        <Testimonials />
+       </div> 
+      
       <section id="impact" className="py-24 bg-emerald-950">
         <div className="mx-auto max-w-7xl px-6 text-slate-100 lg:px-8">
           <header className="text-center">
